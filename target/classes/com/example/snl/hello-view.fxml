@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snl.HelloController">
+   <children>
+      <ImageView fx:id="back" fitHeight="366.0" fitWidth="584.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../target/classes/com/example/snl/redbackground.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="359.0" fitWidth="584.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../target/classes/com/example/snl/redbackground.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="board" fitHeight="453.0" fitWidth="404.0" layoutX="132.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../target/classes/com/example/snl/board.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow" fitHeight="41.0" fitWidth="54.0" layoutX="271.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../target/classes/com/example/snl/arrow.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="tok1" fill="DODGERBLUE" layoutX="132.0" layoutY="502.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="diceback" fitHeight="72.0" fitWidth="87.0" layoutX="250.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../target/classes/com/example/snl/diceback.jpeg" />
+         </image>
+      </ImageView>
+      <Circle fx:id="tok2" fill="DODGERBLUE" layoutX="157.0" layoutY="502.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
